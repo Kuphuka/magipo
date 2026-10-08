@@ -1,12 +1,12 @@
 :root {
   color-scheme: light;
-  --ink: #252624;
-  --ink-soft: #5f605a;
-  --paper: #f4f2ed;
-  --paper-light: #fbfaf7;
-  --line: #dcd9d1;
-  --accent: #a58a61;
-  --dark: #252725;
+  --ink: #18283b;
+  --ink-soft: #5c6978;
+  --paper: #eef3f8;
+  --paper-light: #f8fafc;
+  --line: #d5e0ec;
+  --accent: #3478c7;
+  --dark: #11253d;
   --font-body: "DM Sans", sans-serif;
   --font-display: "Manrope", sans-serif;
   --page-width: 1240px;
@@ -214,16 +214,16 @@ button {
 }
 
 .hero-image {
-  background-image: url("https://images.unsplash.com/photo-1674758978719-6121d8fbefb4?auto=format&fit=crop&w=2200&q=85");
-  background-position: center 55%;
+  background-image: url("WhatsApp%20Unknown%202026-10-08%20at%2011.51.58/WhatsApp%20Image%202026-10-08%20at%2010.54.26%20(3).jpeg");
+  background-position: center 58%;
   background-size: cover;
   transform: scale(1.01);
   animation: hero-drift 24s ease-in-out infinite alternate;
 }
 
 .hero-overlay {
-  background: linear-gradient(90deg, rgba(25, 27, 26, 0.84) 0%, rgba(25, 27, 26, 0.67) 43%, rgba(25, 27, 26, 0.12) 100%),
-    linear-gradient(0deg, rgba(25, 27, 26, 0.28), transparent 32%);
+  background: linear-gradient(90deg, rgba(15, 34, 56, 0.86) 0%, rgba(15, 34, 56, 0.65) 43%, rgba(15, 34, 56, 0.12) 100%),
+    linear-gradient(0deg, rgba(15, 34, 56, 0.34), transparent 32%);
 }
 
 .hero-content {
@@ -276,7 +276,7 @@ button {
 .display-heading em,
 .vision h2 em,
 .contact h2 em {
-  color: #c3aa82;
+  color: #8dbcf0;
   font-style: normal;
 }
 
@@ -326,7 +326,7 @@ button {
 }
 
 .hero-text-link span {
-  color: #c3aa82;
+  color: #8dbcf0;
 }
 
 .hero-caption,
@@ -347,7 +347,7 @@ button {
 }
 
 .hero-caption > span:first-child {
-  color: #c3aa82;
+  color: #8dbcf0;
 }
 
 .caption-rule {
@@ -364,7 +364,7 @@ button {
 .scroll-line {
   width: 38px;
   height: 1px;
-  background: #c3aa82;
+  background: #8dbcf0;
 }
 
 .section-pad {
@@ -410,7 +410,7 @@ button {
 }
 
 .display-heading span {
-  color: #85857e;
+  color: #71849a;
 }
 
 .intro-bottom {
@@ -428,6 +428,71 @@ button {
   margin: 0;
   color: var(--ink-soft);
   font-size: 13px;
+  line-height: 1.9;
+}
+
+.founder {
+  background: #f1eee6;
+}
+
+.founder-grid {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.85fr) 1fr;
+  align-items: center;
+  gap: clamp(48px, 9vw, 130px);
+}
+
+.founder-portrait {
+  display: grid;
+  justify-items: center;
+}
+
+.founder-photo-ring {
+  width: min(100%, 390px);
+  aspect-ratio: 1;
+  padding: 8px;
+  border-radius: 50%;
+  background: conic-gradient(from 25deg, #3478c7, #7ba99d, #c6a66d, #3478c7);
+  box-shadow: 0 16px 38px rgba(24, 40, 59, 0.14);
+}
+
+.founder-portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 31%;
+  border: 4px solid #f1eee6;
+  border-radius: 50%;
+}
+
+.founder-photo-caption {
+  display: block;
+  padding: 13px 8px 4px;
+  color: var(--ink-soft);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-align: center;
+}
+
+.founder-copy .eyebrow {
+  margin-bottom: 22px;
+}
+
+.founder-copy .display-heading {
+  margin-bottom: 24px;
+}
+
+.founder-copy .display-heading span {
+  color: var(--accent);
+}
+
+.founder-copy > p:not(.eyebrow) {
+  max-width: 510px;
+  margin: 0 0 27px;
+  color: var(--ink-soft);
+  font-size: 14px;
   line-height: 1.9;
 }
 
@@ -490,6 +555,7 @@ button {
 }
 
 .service-image {
+  position: relative;
   height: 230px;
   background-color: #d4d0c6;
   background-position: center;
@@ -502,19 +568,53 @@ button {
 }
 
 .service-image-residential {
-  background-image: url("https://images.unsplash.com/photo-1790140234175-b807f22f0758?auto=format&fit=crop&w=1000&q=80");
+  background-image: url("WhatsApp%20Unknown%202026-10-08%20at%2011.51.58/WhatsApp%20Image%202026-10-08%20at%2010.54.25.jpeg");
+  background-position: center 58%;
 }
 
 .service-image-commercial {
-  background-image: url("https://images.unsplash.com/photo-1636706519609-988babca3dd5?auto=format&fit=crop&w=1000&q=80");
+  background-image: url("WhatsApp%20Unknown%202026-10-08%20at%2011.51.58/WhatsApp%20Image%202026-10-08%20at%2010.54.26.jpeg");
+  background-position: center 58%;
 }
 
 .service-image-renovation {
-  background-image: url("https://images.unsplash.com/photo-1669102903247-0b34ec4be5af?auto=format&fit=crop&w=1000&q=80");
+  background-image: url("WhatsApp%20Unknown%202026-10-08%20at%2011.51.58/WhatsApp%20Image%202026-10-08%20at%2010.54.25%20(1).jpeg");
 }
 
 .service-image-roads {
-  background-image: url("https://images.unsplash.com/photo-1669380365306-eb1cc4dd47df?auto=format&fit=crop&w=1000&q=80");
+  background-image: url("WhatsApp%20Unknown%202026-10-08%20at%2011.51.58/WhatsApp%20Image%202026-10-08%20at%2010.54.26%20(1).jpeg");
+}
+
+.service-image-equipment {
+  background-image: url("WhatsApp%20Unknown%202026-10-08%20at%2011.51.58/WhatsApp%20Image%202026-10-08%20at%2010.54.26%20(2).jpeg");
+}
+
+.image-brand {
+  position: absolute;
+  bottom: 13px;
+  left: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 10px 5px 5px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  color: white;
+  background: rgba(28, 31, 26, 0.78);
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+}
+
+.image-brand-mark {
+  display: grid;
+  width: 22px;
+  height: 22px;
+  place-items: center;
+  color: var(--dark);
+  background: #f3f2ec;
+  font-family: var(--font-display);
+  font-size: 13px;
+  letter-spacing: -0.06em;
 }
 
 .service-card-body {
@@ -568,24 +668,23 @@ button {
 }
 
 .service-card-text {
-  display: flex;
-  min-height: 432px;
-  align-items: flex-end;
-  color: #f7f5f0;
-  background: var(--dark);
+  display: block;
+  min-height: 0;
+  color: var(--ink);
+  background: var(--paper-light);
 }
 
 .service-card-text .service-card-body {
-  min-height: 220px;
+  min-height: 202px;
 }
 
 .service-card-text .service-number,
 .service-card-text p {
-  color: #b9b7ae;
+  color: #898a83;
 }
 
 .service-card-text .service-card-body > a {
-  border-color: #62645d;
+  border-color: var(--line);
 }
 
 .vision {
@@ -598,8 +697,8 @@ button {
 .vision-image {
   position: absolute;
   inset: 0 0 0 47%;
-  background-image: linear-gradient(90deg, var(--dark), rgba(37, 39, 37, 0.65) 18%, rgba(37, 39, 37, 0.06) 100%),
-    url("https://images.unsplash.com/photo-1575540538034-c69be309c367?auto=format&fit=crop&w=1600&q=85");
+  background-image: linear-gradient(90deg, var(--dark), rgba(17, 37, 61, 0.7) 28%, rgba(17, 37, 61, 0.1) 100%),
+    url("WhatsApp%20Unknown%202026-10-08%20at%2011.51.58/WhatsApp%20Image%202026-10-08%20at%2010.54.25%20(2).jpeg");
   background-position: center, center;
   background-size: cover;
   opacity: 0.85;
@@ -668,7 +767,7 @@ button {
 }
 
 .contact {
-  background: #e9e6df;
+  background: #e5edf6;
 }
 
 .contact-inner {
@@ -688,7 +787,7 @@ button {
 }
 
 .contact h2 em {
-  color: #8b7757;
+  color: #2866a7;
 }
 
 .contact-details {
@@ -791,7 +890,7 @@ button {
   border-radius: 999px;
   color: #f6f4ef;
   background: var(--dark);
-  box-shadow: 0 8px 26px rgba(25, 27, 26, 0.2);
+  box-shadow: 0 8px 26px rgba(17, 37, 61, 0.2);
   font-size: 12px;
   font-weight: 600;
   transition: background 180ms ease, transform 180ms ease;
@@ -810,7 +909,7 @@ button {
 .whatsapp-button svg {
   width: 22px;
   height: 22px;
-  color: #c3aa82;
+  color: #8dbcf0;
 }
 
 @keyframes hero-arrive {
@@ -943,6 +1042,19 @@ body.motion-ready .service-card:nth-child(5) {
     gap: 40px;
   }
 
+  .founder-grid {
+    grid-template-columns: minmax(220px, 0.8fr) 1fr;
+    gap: 36px;
+  }
+
+  .founder-portrait {
+    width: 100%;
+  }
+
+  .founder-photo-ring {
+    width: min(100%, 330px);
+  }
+
   .service-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1021,8 +1133,8 @@ body.motion-ready .service-card:nth-child(5) {
   }
 
   .hero-overlay {
-    background: linear-gradient(90deg, rgba(25, 27, 26, 0.83), rgba(25, 27, 26, 0.4)),
-      linear-gradient(0deg, rgba(25, 27, 26, 0.38), transparent 45%);
+    background: linear-gradient(90deg, rgba(15, 34, 56, 0.86), rgba(15, 34, 56, 0.45)),
+      linear-gradient(0deg, rgba(15, 34, 56, 0.42), transparent 45%);
   }
 
   .hero h1 {
@@ -1048,6 +1160,10 @@ body.motion-ready .service-card:nth-child(5) {
   }
 
   .hero-scroll {
+    display: none;
+  }
+
+  .hero-scroll {
     left: 20px;
     bottom: 25px;
     font-size: 8px;
@@ -1059,6 +1175,23 @@ body.motion-ready .service-card:nth-child(5) {
 
   .intro-grid {
     display: block;
+  }
+
+  .founder-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .founder-portrait {
+    width: 100%;
+  }
+
+  .founder-photo-ring {
+    width: min(82vw, 340px);
+  }
+
+  .founder-copy .display-heading {
+    font-size: clamp(36px, 10vw, 49px);
   }
 
   .intro-label {
@@ -1124,8 +1257,8 @@ body.motion-ready .service-card:nth-child(5) {
 
   .vision-image {
     inset: 0;
-    background-image: linear-gradient(90deg, rgba(37, 39, 37, 0.94), rgba(37, 39, 37, 0.8)),
-      url("https://images.unsplash.com/photo-1575540538034-c69be309c367?auto=format&fit=crop&w=1200&q=80");
+    background-image: linear-gradient(90deg, rgba(17, 37, 61, 0.94), rgba(17, 37, 61, 0.8)),
+      url("WhatsApp%20Unknown%202026-10-08%20at%2011.51.58/WhatsApp%20Image%202026-10-08%20at%2010.54.27.jpeg");
     background-position: center;
   }
 
